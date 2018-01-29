@@ -23,7 +23,19 @@ h1{
     color: #7F1C19;
 }
 
+p{
+    font-family: "Lato", serif;
+}
+section {
+ display: flex;
+}
 
+aside {
+ flex: 1
+ margin-left: 5%;
+ margin-right: 5%;
+    margin-top: 5%;
+}
 
 ul.menu {
     list-style-type: none;
