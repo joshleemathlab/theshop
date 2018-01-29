@@ -10,8 +10,11 @@
 
 h2{
     text-align: left;
+    font-family: "Lato", serif;   
+}
+h3{
     font-family: "Lato", serif;
-    
+    margin-top: -30px;
 }
 h1{
     text-align: center;
@@ -19,6 +22,8 @@ h1{
     letter-spacing: 25px;
     color: #7F1C19;
 }
+
+
 
 ul.menu {
     list-style-type: none;
@@ -57,4 +62,55 @@ li a.menu {
 li a:hover {
     background-color: white;
     color: #7F1C19;
+}
+
+
+.email{
+    
+}
+.message{
+    
+}
+.submit{
+    
+}
+.form{
+    margin-left: 22%;
+    width: 50%;
+}
+
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 700px 200px;
+    grid-template-rows: 400px 100px;
+    background-color: white;
+    padding: 0px;
+    position: center;
+    
+    
+}
+.grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding:0px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.gridimage{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+table {
+    border: 1px solid black;
+    width: 250px;
+    height: 500px;
+    font-family: "Lato", serif;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 0px;
+
 }
