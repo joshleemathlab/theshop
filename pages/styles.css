@@ -2,6 +2,7 @@
     width: 50%;
     margin-left: 25%;
     background-color: white;
+    margin-bottom: 50px;
 }
 
 .mainbody{
@@ -35,6 +36,12 @@ aside {
  margin-left: 5%;
  margin-right: 5%;
     margin-top: 5%;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    background-color: white;
+    width: 50%;
 }
 
 ul.menu {
